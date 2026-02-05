@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.72.2 (2026-02-05)
+
+Full Changelog: [sdk-v0.72.1...sdk-v0.72.2](https://github.com/anthropics/anthropic-sdk-typescript/compare/sdk-v0.72.1...sdk-v0.72.2)
+
+### Bug Fixes
+
+* **client:** avoid memory leak in abort signal listener ([#895](https://github.com/anthropics/anthropic-sdk-typescript/issues/895)) ([3bdd153](https://github.com/anthropics/anthropic-sdk-typescript/commit/3bdd153c43280adf233a2d7d7d9bb55cd5ad4c26))
+* **client:** avoid memory leak with abort signals ([53e47df](https://github.com/anthropics/anthropic-sdk-typescript/commit/53e47dfa6985e6a206c475b8c920b8a97c27e17e))
+
+
+### Chores
+
+* **client:** do not parse responses with empty content-length ([2be2df9](https://github.com/anthropics/anthropic-sdk-typescript/commit/2be2df928d1564286cddc9765fd9959f9649d314))
+* **client:** restructure abort controller binding ([0eeacb6](https://github.com/anthropics/anthropic-sdk-typescript/commit/0eeacb6c310d961e09ac3d00b4b2e50957b31e2f))
+* remove claude-code-review workflow ([#644](https://github.com/anthropics/anthropic-sdk-typescript/issues/644)) ([ad09c76](https://github.com/anthropics/anthropic-sdk-typescript/commit/ad09c76b0d323c0a867d23f765f20909cddbd885))
+
 ## 0.72.1 (2026-01-30)
 
 Full Changelog: [sdk-v0.72.0...sdk-v0.72.1](https://github.com/anthropics/anthropic-sdk-typescript/compare/sdk-v0.72.0...sdk-v0.72.1)
